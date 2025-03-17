@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170D571B2D800101001B83CF /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 170D571A2D800101001B83CF /* CachedAsyncImage */; };
+		1797C9DF2D66BB03008EA7AC /* Pods_ydisk_skillbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F119238144E6238AE1A272 /* Pods_ydisk_skillbox.framework */; };
+		1797C9E02D66BB03008EA7AC /* Pods_ydisk_skillbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25F119238144E6238AE1A272 /* Pods_ydisk_skillbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44A41EB6899411057CCB8370 /* Pods_ydisk_skillboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6C5EEC0B011AC7EF7B4E6D /* Pods_ydisk_skillboxTests.framework */; };
+		5AE6E5423E6E66636969FE2C /* Pods_ydisk_skillbox_ydisk_skillboxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD552A95F219C30FB70AD47A /* Pods_ydisk_skillbox_ydisk_skillboxUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1791CD962D63BF2800186CA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1791CD7D2D63BF2600186CA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1791CD842D63BF2600186CA6;
+			remoteInfo = ydisk_skillbox;
+		};
+		1791CDA02D63BF2800186CA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1791CD7D2D63BF2600186CA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1791CD842D63BF2600186CA6;
+			remoteInfo = ydisk_skillbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1797C9E12D66BB03008EA7AC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1797C9E02D66BB03008EA7AC /* Pods_ydisk_skillbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1791CD852D63BF2600186CA6 /* Skillbox Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skillbox Drive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1791CD952D63BF2800186CA6 /* ydisk_skillboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ydisk_skillboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1791CD9F2D63BF2800186CA6 /* ydisk_skillboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ydisk_skillboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C6A3F82D71AA3D00EB866B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F119238144E6238AE1A272 /* Pods_ydisk_skillbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ydisk_skillbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		690E45F5BF648E2778FA4574 /* Pods-ydisk_skillbox-ydisk_skillboxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ydisk_skillbox-ydisk_skillboxUITests.debug.xcconfig"; path = "Target Support Files/Pods-ydisk_skillbox-ydisk_skillboxUITests/Pods-ydisk_skillbox-ydisk_skillboxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A50A98A0FD8BD0000A28A724 /* Pods-ydisk_skillboxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ydisk_skillboxTests.release.xcconfig"; path = "Target Support Files/Pods-ydisk_skillboxTests/Pods-ydisk_skillboxTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC6C5EEC0B011AC7EF7B4E6D /* Pods_ydisk_skillboxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ydisk_skillboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD552A95F219C30FB70AD47A /* Pods_ydisk_skillbox_ydisk_skillboxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ydisk_skillbox_ydisk_skillboxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0927129ED2B1CCB753D6602 /* Pods-ydisk_skillbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ydisk_skillbox.release.xcconfig"; path = "Target Support Files/Pods-ydisk_skillbox/Pods-ydisk_skillbox.release.xcconfig"; sourceTree = "<group>"; };
+		E65F3476761CC53B7BE46DCD /* Pods-ydisk_skillbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ydisk_skillbox.debug.xcconfig"; path = "Target Support Files/Pods-ydisk_skillbox/Pods-ydisk_skillbox.debug.xcconfig"; sourceTree = "<group>"; };
+		E99D7F9122CF7B2FB4FCE561 /* Pods-ydisk_skillbox-ydisk_skillboxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ydisk_skillbox-ydisk_skillboxUITests.release.xcconfig"; path = "Target Support Files/Pods-ydisk_skillbox-ydisk_skillboxUITests/Pods-ydisk_skillbox-ydisk_skillboxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FCB6AE0AFA72FB01599E0E19 /* Pods-ydisk_skillboxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ydisk_skillboxTests.debug.xcconfig"; path = "Target Support Files/Pods-ydisk_skillboxTests/Pods-ydisk_skillboxTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1791CD872D63BF2600186CA6 /* ydisk_skillbox */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ydisk_skillbox;
+			sourceTree = "<group>";
+		};
+		1791CD982D63BF2800186CA6 /* ydisk_skillboxTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ydisk_skillboxTests;
+			sourceTree = "<group>";
+		};
+		1791CDA22D63BF2800186CA6 /* ydisk_skillboxUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ydisk_skillboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1791CD822D63BF2600186CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170D571B2D800101001B83CF /* CachedAsyncImage in Frameworks */,
+				1797C9DF2D66BB03008EA7AC /* Pods_ydisk_skillbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1791CD922D63BF2800186CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A41EB6899411057CCB8370 /* Pods_ydisk_skillboxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1791CD9C2D63BF2800186CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE6E5423E6E66636969FE2C /* Pods_ydisk_skillbox_ydisk_skillboxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1791CD7C2D63BF2600186CA6 = {
+			isa = PBXGroup;
+			children = (
+				1791CD872D63BF2600186CA6 /* ydisk_skillbox */,
+				1791CD982D63BF2800186CA6 /* ydisk_skillboxTests */,
+				1791CDA22D63BF2800186CA6 /* ydisk_skillboxUITests */,
+				1791CD862D63BF2600186CA6 /* Products */,
+				A186D5E4B90D4912A737C446 /* Pods */,
+				2CA55F3D2F0C5A0DC05892FD /* Frameworks */,
+				17C6A3F82D71AA3D00EB866B /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		1791CD862D63BF2600186CA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1791CD852D63BF2600186CA6 /* Skillbox Drive.app */,
+				1791CD952D63BF2800186CA6 /* ydisk_skillboxTests.xctest */,
+				1791CD9F2D63BF2800186CA6 /* ydisk_skillboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CA55F3D2F0C5A0DC05892FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25F119238144E6238AE1A272 /* Pods_ydisk_skillbox.framework */,
+				DD552A95F219C30FB70AD47A /* Pods_ydisk_skillbox_ydisk_skillboxUITests.framework */,
+				AC6C5EEC0B011AC7EF7B4E6D /* Pods_ydisk_skillboxTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A186D5E4B90D4912A737C446 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E65F3476761CC53B7BE46DCD /* Pods-ydisk_skillbox.debug.xcconfig */,
+				E0927129ED2B1CCB753D6602 /* Pods-ydisk_skillbox.release.xcconfig */,
+				690E45F5BF648E2778FA4574 /* Pods-ydisk_skillbox-ydisk_skillboxUITests.debug.xcconfig */,
+				E99D7F9122CF7B2FB4FCE561 /* Pods-ydisk_skillbox-ydisk_skillboxUITests.release.xcconfig */,
+				FCB6AE0AFA72FB01599E0E19 /* Pods-ydisk_skillboxTests.debug.xcconfig */,
+				A50A98A0FD8BD0000A28A724 /* Pods-ydisk_skillboxTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1791CD842D63BF2600186CA6 /* ydisk_skillbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1791CDA92D63BF2800186CA6 /* Build configuration list for PBXNativeTarget "ydisk_skillbox" */;
+			buildPhases = (
+				16EBE5BDBAB3512F95EE4A80 /* [CP] Check Pods Manifest.lock */,
+				1791CD812D63BF2600186CA6 /* Sources */,
+				1791CD822D63BF2600186CA6 /* Frameworks */,
+				1791CD832D63BF2600186CA6 /* Resources */,
+				035C453CB06E07C8368F947A /* [CP] Embed Pods Frameworks */,
+				1797C9E12D66BB03008EA7AC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1791CD872D63BF2600186CA6 /* ydisk_skillbox */,
+			);
+			name = ydisk_skillbox;
+			productName = ydisk_skillbox;
+			productReference = 1791CD852D63BF2600186CA6 /* Skillbox Drive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1791CD942D63BF2800186CA6 /* ydisk_skillboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1791CDAC2D63BF2800186CA6 /* Build configuration list for PBXNativeTarget "ydisk_skillboxTests" */;
+			buildPhases = (
+				45CE1C13904585EA4FCACC76 /* [CP] Check Pods Manifest.lock */,
+				1791CD912D63BF2800186CA6 /* Sources */,
+				1791CD922D63BF2800186CA6 /* Frameworks */,
+				1791CD932D63BF2800186CA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1791CD972D63BF2800186CA6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1791CD982D63BF2800186CA6 /* ydisk_skillboxTests */,
+			);
+			name = ydisk_skillboxTests;
+			productName = ydisk_skillboxTests;
+			productReference = 1791CD952D63BF2800186CA6 /* ydisk_skillboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1791CD9E2D63BF2800186CA6 /* ydisk_skillboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1791CDAF2D63BF2800186CA6 /* Build configuration list for PBXNativeTarget "ydisk_skillboxUITests" */;
+			buildPhases = (
+				32B9CBC595F21B2855276A9E /* [CP] Check Pods Manifest.lock */,
+				1791CD9B2D63BF2800186CA6 /* Sources */,
+				1791CD9C2D63BF2800186CA6 /* Frameworks */,
+				1791CD9D2D63BF2800186CA6 /* Resources */,
+				F1C22F0563D980CB5A0F880B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1791CDA12D63BF2800186CA6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1791CDA22D63BF2800186CA6 /* ydisk_skillboxUITests */,
+			);
+			name = ydisk_skillboxUITests;
+			productName = ydisk_skillboxUITests;
+			productReference = 1791CD9F2D63BF2800186CA6 /* ydisk_skillboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1791CD7D2D63BF2600186CA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1791CD842D63BF2600186CA6 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1791CD942D63BF2800186CA6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1791CD842D63BF2600186CA6;
+					};
+					1791CD9E2D63BF2800186CA6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1791CD842D63BF2600186CA6;
+					};
+				};
+			};
+			buildConfigurationList = 1791CD802D63BF2600186CA6 /* Build configuration list for PBXProject "idk ydisk_skillbox" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1791CD7C2D63BF2600186CA6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				170D57142D7FFFDB001B83CF /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1791CD862D63BF2600186CA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1791CD842D63BF2600186CA6 /* ydisk_skillbox */,
+				1791CD942D63BF2800186CA6 /* ydisk_skillboxTests */,
+				1791CD9E2D63BF2800186CA6 /* ydisk_skillboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1791CD832D63BF2600186CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1791CD932D63BF2800186CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1791CD9D2D63BF2800186CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		035C453CB06E07C8368F947A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ydisk_skillbox/Pods-ydisk_skillbox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ydisk_skillbox/Pods-ydisk_skillbox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ydisk_skillbox/Pods-ydisk_skillbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16EBE5BDBAB3512F95EE4A80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ydisk_skillbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32B9CBC595F21B2855276A9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ydisk_skillbox-ydisk_skillboxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45CE1C13904585EA4FCACC76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ydisk_skillboxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C22F0563D980CB5A0F880B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ydisk_skillbox-ydisk_skillboxUITests/Pods-ydisk_skillbox-ydisk_skillboxUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ydisk_skillbox-ydisk_skillboxUITests/Pods-ydisk_skillbox-ydisk_skillboxUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ydisk_skillbox-ydisk_skillboxUITests/Pods-ydisk_skillbox-ydisk_skillboxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1791CD812D63BF2600186CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1791CD912D63BF2800186CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1791CD9B2D63BF2800186CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1791CD972D63BF2800186CA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1791CD842D63BF2600186CA6 /* ydisk_skillbox */;
+			targetProxy = 1791CD962D63BF2800186CA6 /* PBXContainerItemProxy */;
+		};
+		1791CDA12D63BF2800186CA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1791CD842D63BF2600186CA6 /* ydisk_skillbox */;
+			targetProxy = 1791CDA02D63BF2800186CA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1791CDA72D63BF2800186CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1791CDA82D63BF2800186CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1791CDAA2D63BF2800186CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65F3476761CC53B7BE46DCD /* Pods-ydisk_skillbox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ydisk_skillbox/Preview Content\"";
+				DEVELOPMENT_TEAM = 94UH37ZMA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tab.ydisk-skillbox";
+				PRODUCT_NAME = "Skillbox Drive";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1791CDAB2D63BF2800186CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0927129ED2B1CCB753D6602 /* Pods-ydisk_skillbox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ydisk_skillbox/Preview Content\"";
+				DEVELOPMENT_TEAM = 94UH37ZMA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tab.ydisk-skillbox";
+				PRODUCT_NAME = "Skillbox Drive";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1791CDAD2D63BF2800186CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB6AE0AFA72FB01599E0E19 /* Pods-ydisk_skillboxTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94UH37ZMA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tab.ydisk-skillboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ydisk_skillbox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ydisk_skillbox";
+			};
+			name = Debug;
+		};
+		1791CDAE2D63BF2800186CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50A98A0FD8BD0000A28A724 /* Pods-ydisk_skillboxTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94UH37ZMA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tab.ydisk-skillboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ydisk_skillbox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ydisk_skillbox";
+			};
+			name = Release;
+		};
+		1791CDB02D63BF2800186CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 690E45F5BF648E2778FA4574 /* Pods-ydisk_skillbox-ydisk_skillboxUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94UH37ZMA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tab.ydisk-skillboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ydisk_skillbox;
+			};
+			name = Debug;
+		};
+		1791CDB12D63BF2800186CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99D7F9122CF7B2FB4FCE561 /* Pods-ydisk_skillbox-ydisk_skillboxUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94UH37ZMA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tab.ydisk-skillboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ydisk_skillbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1791CD802D63BF2600186CA6 /* Build configuration list for PBXProject "idk ydisk_skillbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1791CDA72D63BF2800186CA6 /* Debug */,
+				1791CDA82D63BF2800186CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1791CDA92D63BF2800186CA6 /* Build configuration list for PBXNativeTarget "ydisk_skillbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1791CDAA2D63BF2800186CA6 /* Debug */,
+				1791CDAB2D63BF2800186CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1791CDAC2D63BF2800186CA6 /* Build configuration list for PBXNativeTarget "ydisk_skillboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1791CDAD2D63BF2800186CA6 /* Debug */,
+				1791CDAE2D63BF2800186CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1791CDAF2D63BF2800186CA6 /* Build configuration list for PBXNativeTarget "ydisk_skillboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1791CDB02D63BF2800186CA6 /* Debug */,
+				1791CDB12D63BF2800186CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		170D57142D7FFFDB001B83CF /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		170D571A2D800101001B83CF /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 170D57142D7FFFDB001B83CF /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1791CD7D2D63BF2600186CA6 /* Project object */;
+}
