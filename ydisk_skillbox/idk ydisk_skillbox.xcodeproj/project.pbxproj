@@ -10,6 +10,9 @@
 		170D571B2D800101001B83CF /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 170D571A2D800101001B83CF /* CachedAsyncImage */; };
 		1797C9DF2D66BB03008EA7AC /* Pods_ydisk_skillbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F119238144E6238AE1A272 /* Pods_ydisk_skillbox.framework */; };
 		1797C9E02D66BB03008EA7AC /* Pods_ydisk_skillbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25F119238144E6238AE1A272 /* Pods_ydisk_skillbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		179C83542D8A73C800AF6039 /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 179C83532D8A73C300AF6039 /* .env */; };
+		179C83572D8A74BF00AF6039 /* DotEnv in Frameworks */ = {isa = PBXBuildFile; productRef = 179C83562D8A74BF00AF6039 /* DotEnv */; };
+		179C83592D8A74DD00AF6039 /* DotEnv in Frameworks */ = {isa = PBXBuildFile; productRef = 179C83582D8A74DD00AF6039 /* DotEnv */; };
 		44A41EB6899411057CCB8370 /* Pods_ydisk_skillboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6C5EEC0B011AC7EF7B4E6D /* Pods_ydisk_skillboxTests.framework */; };
 		5AE6E5423E6E66636969FE2C /* Pods_ydisk_skillbox_ydisk_skillboxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD552A95F219C30FB70AD47A /* Pods_ydisk_skillbox_ydisk_skillboxUITests.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +52,7 @@
 		1791CD852D63BF2600186CA6 /* Skillbox Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skillbox Drive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1791CD952D63BF2800186CA6 /* ydisk_skillboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ydisk_skillboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1791CD9F2D63BF2800186CA6 /* ydisk_skillboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ydisk_skillboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		179C83532D8A73C300AF6039 /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 		17C6A3F82D71AA3D00EB866B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25F119238144E6238AE1A272 /* Pods_ydisk_skillbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ydisk_skillbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		690E45F5BF648E2778FA4574 /* Pods-ydisk_skillbox-ydisk_skillboxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ydisk_skillbox-ydisk_skillboxUITests.debug.xcconfig"; path = "Target Support Files/Pods-ydisk_skillbox-ydisk_skillboxUITests/Pods-ydisk_skillbox-ydisk_skillboxUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 			files = (
 				170D571B2D800101001B83CF /* CachedAsyncImage in Frameworks */,
 				1797C9DF2D66BB03008EA7AC /* Pods_ydisk_skillbox.framework in Frameworks */,
+				179C83592D8A74DD00AF6039 /* DotEnv in Frameworks */,
+				179C83572D8A74BF00AF6039 /* DotEnv in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +124,7 @@
 				A186D5E4B90D4912A737C446 /* Pods */,
 				2CA55F3D2F0C5A0DC05892FD /* Frameworks */,
 				17C6A3F82D71AA3D00EB866B /* Info.plist */,
+				179C83532D8A73C300AF6039 /* .env */,
 			);
 			sourceTree = "<group>";
 		};
@@ -254,11 +261,13 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 1791CD7C2D63BF2600186CA6;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				170D57142D7FFFDB001B83CF /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+				179C83522D8A703D00AF6039 /* XCRemoteSwiftPackageReference "DotEnv" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1791CD862D63BF2600186CA6 /* Products */;
@@ -277,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179C83542D8A73C800AF6039 /* .env in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +506,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -552,6 +563,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -565,7 +577,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ydisk_skillbox/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ydisk_skillbox/Content/dev\"";
 				DEVELOPMENT_TEAM = 94UH37ZMA3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -599,7 +611,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ydisk_skillbox/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ydisk_skillbox/Content/dev\"";
 				DEVELOPMENT_TEAM = 94UH37ZMA3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -750,6 +762,14 @@
 				minimumVersion = 2.1.1;
 			};
 		};
+		179C83522D8A703D00AF6039 /* XCRemoteSwiftPackageReference "DotEnv" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftpackages/DotEnv.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -757,6 +777,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 170D57142D7FFFDB001B83CF /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
 			productName = CachedAsyncImage;
+		};
+		179C83562D8A74BF00AF6039 /* DotEnv */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 179C83522D8A703D00AF6039 /* XCRemoteSwiftPackageReference "DotEnv" */;
+			productName = DotEnv;
+		};
+		179C83582D8A74DD00AF6039 /* DotEnv */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 179C83522D8A703D00AF6039 /* XCRemoteSwiftPackageReference "DotEnv" */;
+			productName = DotEnv;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

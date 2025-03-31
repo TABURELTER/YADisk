@@ -102,7 +102,7 @@ struct PageControl: View {
 }
 
 #Preview {
-    @State var isf = true
+    @Previewable @State var isf = true
     OnboardingView(isFirstLaunch: $isf)
 }
 

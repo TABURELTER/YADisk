@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import DotEnv
 
 @main
 struct ydisk_skillboxApp: App {
@@ -17,39 +18,24 @@ struct ydisk_skillboxApp: App {
     @AppStorage("isFirstLaunch") private var isFirstLaunch: Bool = true
     @AppStorage("isAuthed") private var isAuthed: Bool = false
     
-    
     var body: some Scene {
         WindowGroup {
             ZStack {
-                
                 if isAuthed {
-                   
                     TabBarView()
-                    
                 }else{
-                    
                     LaunchScreenView()
                         .environmentObject(appState)
                         .id(appState.isRestarted)
-                    
                     if isFirstLaunch {
                         OnboardingView(isFirstLaunch: $isFirstLaunch)
                     }
-                    
                 }
-                
-//                test()
-                
-//                ContentView()
-                
-//                if launchScreenState.state != .finished {
-//                LaunchScreenView()
-//                    .environmentObject(appState)
-//                    .id(appState.isRestarted)
-//                }
             }
             .onAppear{
                 NetworkMonitor.shared.startMonitoring()
+             
+                CacheManager.shared.testDatabaseOperations()
             }
             .environmentObject(launchScreenState)
             .sheet(isPresented:  $isFirstLaunch, content: {

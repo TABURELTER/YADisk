@@ -7,11 +7,6 @@
 
 import Foundation
 
-//extension URLCache {
-//    static let imageCache2 = URLCache(memoryCapacity: 512_000_000, diskCapacity: 10_000_000_000)
-//}
-
-
 // Расширение для URLCache
 extension URLCache {
     static let myCache: URLCache = {

@@ -94,3 +94,23 @@ struct Size: Codable, Equatable {
     let url: String
     let name: String
 }
+
+
+
+struct DiskPublic: Codable, Equatable {
+    let items : [DiskPublicItem]
+    
+    enum CodingKeys: String, CodingKey, Equatable {
+        case items = "items"
+    }
+}
+
+struct DiskPublicItem : Codable, Equatable{
+    let publicURL : String
+    let name : String
+    
+    enum CodingKeys: String, CodingKey, Equatable {
+        case publicURL = "public_url"
+        case name = "name"
+    }
+}

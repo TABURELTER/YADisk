@@ -40,18 +40,18 @@ struct LaunchScreenView: View {
                     YandexLoginViewModel.shared.startAuthorization(strategy: .default)
                 })
                 .disabled(YandexLoginViewModel.shared.isLoading)
-                .disabled(token != "")
-                .contextMenu{
-                    Menu{
-                        Button {
-                            YandexLoginViewModel.shared.logout()
-                        } label: {
-                            Label("Logout", systemImage: "iphone.and.arrow.right.outward")
-                        }
-                    } label: {
-                        Label("Debug Menu", systemImage: "desktopcomputer.trianglebadge.exclamationmark")
-                    }
-                }
+                .disabled(!token.isEmpty)
+//                .contextMenu{
+//                    Menu{
+//                        Button {
+//                            YandexLoginViewModel.shared.logout()
+//                        } label: {
+//                            Label("Logout", systemImage: "iphone.and.arrow.right.outward")
+//                        }
+//                    } label: {
+//                        Label("Debug Menu", systemImage: "desktopcomputer.trianglebadge.exclamationmark")
+//                    }
+//                }
                 .padding()
                 .frame(width: 350)
                 

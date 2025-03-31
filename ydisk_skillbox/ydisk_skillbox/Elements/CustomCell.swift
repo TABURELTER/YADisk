@@ -99,8 +99,7 @@ func isImage(_ fileExtension: String) -> Bool {
         Folder(
             PATH: "disk:/фото",
             title: "Debug images",
-            onDismiss: nil,
-            token: "y0__xCHp4HcARiBsjUg3_WXtBIdcAJl-Q-Kq15AFkuCOvZV4pQJdg"
+            onDismiss: nil
         )
     }
 }
@@ -110,8 +109,7 @@ func isImage(_ fileExtension: String) -> Bool {
         Folder(
             PATH: "disk:/",
             title: "Debug images",
-            onDismiss: nil,
-            token: "y0__xCHp4HcARiBsjUg3_WXtBIdcAJl-Q-Kq15AFkuCOvZV4pQJdg"
+            onDismiss: nil
         )
     }
 }
@@ -132,17 +130,19 @@ class cell {
     let isFolder:Bool
     let icon:Image?
     
-    let path:String
+    var path:String
     
-    let name:String
+    var name:String
     let dateCreate:Date
     let size:String
     
     let sizes: [Size]?
     
+    let file: String?
+    
     let MD5:String?
     
-    init(isFolder:Bool = false,name:String, path:String,icon:Image? = nil,dateCreate:Date, size:String, sizes: [Size]? = nil,MD5:String? = nil) {
+    init(isFolder:Bool = false,name:String, path:String,icon:Image? = nil,dateCreate:Date, size:String, sizes: [Size]? = nil,file: String? = nil,MD5:String? = nil) {
         self.path = path
         self.isFolder = isFolder
         self.icon = icon
@@ -150,6 +150,7 @@ class cell {
         self.dateCreate = dateCreate
         self.size = size
         self.sizes = sizes
+        self.file = file
         self.MD5 = MD5
     }
     
@@ -158,3 +159,23 @@ class cell {
            return String(name[name.index(after: dotIndex)...])
        }
 }
+extension cell {
+    // Инициализатор, который создает объект cell из DiskPublicItem
+    convenience init(from publicItem: DiskPublicItem, size: String, dateCreate: Date) {
+        self.init(
+            isFolder: false, // Параметр для isFolder по умолчанию false, так как мы работаем с файлами
+            name: publicItem.name,
+            path: publicItem.publicURL, // Ссылка на файл или его путь
+            icon: nil, // Вы можете добавить логику для определения иконки, если она нужна
+            dateCreate: dateCreate,
+            size: size,
+            sizes: nil, // Для примера можно оставить nil или определить логику для их создания
+            file: publicItem.publicURL, // Или путь к файлу
+            MD5: nil // Здесь можно добавить логику, если требуется MD5
+        )
+    }
+}
+
+// Пример использования
+let publicItem = DiskPublicItem(publicURL: "https://yadi.sk/i/6r2XE9ISfxHz6Q", name: "0 Бесплатная книга по макетам.pdf")
+let cellItem = cell(from: publicItem, size: "6MB", dateCreate: Date())

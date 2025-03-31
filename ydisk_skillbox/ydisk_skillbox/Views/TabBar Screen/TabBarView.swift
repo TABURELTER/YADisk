@@ -21,7 +21,7 @@ struct TabBarView: View {
                     }.tag(1)
                     
                 
-                Folder(PATH: "/",title: "Главная",onDismiss: nil)
+                Folder(PATH: "/",title: "Главная",onDismiss: nil, lastUpdatedSort: true)
                     .tabItem {
                         Image(systemName: "document")
                         Text("Последние")
@@ -34,21 +34,23 @@ struct TabBarView: View {
                         Text("Профиль")
                     }.tag(3)
                 
+                
             }
+            .modifier(NoInternetToolbarModifier())
             .navigationTitle(TabBarName(tag: selection))
-            .navigationBarTitleDisplayMode(.automatic)
-            .contextMenu{
-                Menu{
-                    Button {
-                        isAuthed = false
-                        print("logout")
-                    } label: {
-                        Label("Logout", systemImage: "iphone.and.arrow.right.outward")
-                    }
-                } label: {
-                    Label("Debug Menu", systemImage: "desktopcomputer.trianglebadge.exclamationmark")
-                }
-            }
+//            .navigationBarTitleDisplayMode(.automatic)
+//            .contextMenu{
+//                Menu{
+//                    Button {
+//                        isAuthed = false
+//                        print("logout")
+//                    } label: {
+//                        Label("Logout", systemImage: "iphone.and.arrow.right.outward")
+//                    }
+//                } label: {
+//                    Label("Debug Menu", systemImage: "desktopcomputer.trianglebadge.exclamationmark")
+//                }
+//            }
             .tint(.uIblue)
         }
     }
@@ -68,5 +70,5 @@ func TabBarName(tag: Int) -> String {
 }
 
 #Preview {
-    TabBarView()
+    TabBarView(selection: 2)
 }

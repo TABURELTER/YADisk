@@ -19,5 +19,4 @@ target 'ydisk_skillbox' do
 pod 'YandexLoginSDK'
 pod 'Alamofire'
 
-
 end

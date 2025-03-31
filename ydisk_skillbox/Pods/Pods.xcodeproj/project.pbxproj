@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 71;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -42,7 +42,7 @@
 		57DEE69C4482747319C40C092518DFB0 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704A89E0F50A6FF696A81151EE3A81D2 /* SessionManager.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
 		58E68D512C5E11942F6BF8B512542A12 /* Pods-ydisk_skillboxTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0A111AAD27D569AACD980B58CF9697 /* Pods-ydisk_skillboxTests-dummy.m */; };
 		5ABDF47FC0D60B701B5A8E767DC1314F /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69A5A9FFD32B90A057BD2999014CE39 /* EventMonitor.swift */; };
-		5CD127F101529C336A07D45CE1106A54 /* Alamofire-Alamofire in Resources */ = {isa = PBXBuildFile; fileRef = 085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire-Alamofire */; };
+		5CD127F101529C336A07D45CE1106A54 /* Alamofire.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire.bundle */; };
 		5D368726367F5C9572957ABB6AB0FEA7 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFFC02E8663BF3E26120BB07445605 /* HTTPClient.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
 		65E44B5CDAE3E26B139C95F2BB2E9FF1 /* CryptoUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43B27258E950739E9DF110CCE808357 /* CryptoUtilities.swift */; settings = {COMPILER_FLAGS = "-Werror -Wall -Wsign-compare -Wdocumentation-unknown-command -Wdocumentation -Wnewline-eof -Woverriding-method-mismatch -Wsuper-class-method-mismatch"; }; };
 		66F024DCBE9C5AE50FD48FE6876D5DEB /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D0F97FF0017EA6632C129EB84C453D /* ResponseSerialization.swift */; };
@@ -162,9 +162,9 @@
 		03349D5160EAE7E2215C8820A5A8D909 /* Pods-ydisk_skillbox-ydisk_skillboxUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ydisk_skillbox-ydisk_skillboxUITests-umbrella.h"; sourceTree = "<group>"; };
 		03A0E20AFF1483658E639A7FD4C8B35B /* Pods-ydisk_skillbox-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ydisk_skillbox-frameworks.sh"; sourceTree = "<group>"; };
 		06EC5FFF6F3C0AFCEA7B35D4439B5591 /* QueryUtilitiesError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryUtilitiesError.swift; path = Sources/YandexLoginSDK/Private/Errors/QueryUtilitiesError.swift; sourceTree = "<group>"; };
-		085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire-Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Alamofire-Alamofire"; path = Alamofire.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alamofire.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		094626F5799661A7523EC706FAD9DBC3 /* ActivationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivationError.swift; path = Sources/YandexLoginSDK/Private/Errors/ActivationError.swift; sourceTree = "<group>"; };
-		0FC58AAF02221A3F16B0667906B15608 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Source/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0FC58AAF02221A3F16B0667906B15608 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Source/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		1182CACABBDB40545FFAA9BD4561B85C /* YandexLoginSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YandexLoginSDK-dummy.m"; sourceTree = "<group>"; };
 		136446A228EC3322ADB56677DB8EF6AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1373160EFDEDE4547DC28856D4160E4A /* Pods-ydisk_skillbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ydisk_skillbox-dummy.m"; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 		4DD8CB847C8C8DFE60F129A8B09E3A1F /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/Features/RedirectHandler.swift; sourceTree = "<group>"; };
 		4DDA7F4324EA6656EE8579A2B6B1062A /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CryptoKit.framework; sourceTree = DEVELOPER_DIR; };
 		4ED1006C8E6B4D07BD01043BB6E58F4D /* URLUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLUtilities.swift; path = Sources/YandexLoginSDK/Private/Utilities/URLUtilities.swift; sourceTree = "<group>"; };
-		51562AF7062DE7C24ADB5D5B9F11B8BA /* YandexLoginSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YandexLoginSDK; path = YandexLoginSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51562AF7062DE7C24ADB5D5B9F11B8BA /* YandexLoginSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YandexLoginSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EA0D04B91CF0EABCE5809A0EBD5F74 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		5518D0B526F330026ED7EE509C03A6BC /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Extensions/Result+Alamofire.swift"; sourceTree = "<group>"; };
 		55228944199BB1B81BA7CD5A1DF2329F /* ResponseParserFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseParserFactory.swift; path = Sources/YandexLoginSDK/Private/Networking/ResponseParser/ResponseParserFactory.swift; sourceTree = "<group>"; };
@@ -212,8 +212,8 @@
 		55D0B3BBC027C93F379ACB23DCBE488E /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		57435E0461B2FF418EA9DE33FE3746DA /* Pods-ydisk_skillboxTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ydisk_skillboxTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		58D585C6E6A77FAF48A26E2E433E7366 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/Extensions/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
-		5D42386448337CF6AAB013AF5199D482 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/YandexLoginSDK/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D42386448337CF6AAB013AF5199D482 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/YandexLoginSDK/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8663A7AD368B55A10B687D136B598F /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Core/Request.swift; sourceTree = "<group>"; };
 		64FBFD9ED7E85FBA960466E32F7937CA /* RequestComponentsProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestComponentsProvider.swift; path = Sources/YandexLoginSDK/Private/Networking/RequestComponents/RequestComponentsProvider.swift; sourceTree = "<group>"; };
 		67132476E7C58F8927ED22B33B34DBCE /* PKCE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCE.swift; path = Sources/YandexLoginSDK/Private/Core/PKCE.swift; sourceTree = "<group>"; };
@@ -235,7 +235,7 @@
 		83BAE6D81AC45704964489AF06C537B9 /* HTTPOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPOperation.swift; path = Sources/YandexLoginSDK/Private/Networking/HTTPOperation.swift; sourceTree = "<group>"; };
 		856E1197B341BF38DB40624A4E9AF260 /* YandexLoginSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YandexLoginSDK.release.xcconfig; sourceTree = "<group>"; };
 		8603EB56C3FC01F770B2EC79A10E4C86 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/Features/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
-		87B2AF488A12B2E1F948F469EF2F1287 /* Pods-ydisk_skillbox */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ydisk_skillbox"; path = Pods_ydisk_skillbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B2AF488A12B2E1F948F469EF2F1287 /* Pods_ydisk_skillbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ydisk_skillbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F9207F4E9EFBFCE78772FA329ACC78 /* Pods-ydisk_skillbox-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ydisk_skillbox-acknowledgements.markdown"; sourceTree = "<group>"; };
 		89A72F575387E404EC9AA8B6B178AD80 /* TokenRequestComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenRequestComponents.swift; path = Sources/YandexLoginSDK/Private/Networking/RequestComponents/TokenRequestComponents.swift; sourceTree = "<group>"; };
 		8BB4BECE55F65BFD2BDA6903F7BD40B0 /* Pods-ydisk_skillbox-ydisk_skillboxUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ydisk_skillbox-ydisk_skillboxUITests-dummy.m"; sourceTree = "<group>"; };
@@ -246,7 +246,7 @@
 		950FB1021A82A7537D3C0234B1BAA580 /* DownloadRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadRequest.swift; path = Source/Core/DownloadRequest.swift; sourceTree = "<group>"; };
 		96C5CD96F1BB2B5B3F44926AE8F7AC2D /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/Features/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		9B7DD8CEC99CE928BF6459423602A1BF /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A15BB630C8E1593364D8E4DEA022D66D /* Pods-ydisk_skillboxTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ydisk_skillboxTests-umbrella.h"; sourceTree = "<group>"; };
 		A3CFFC02E8663BF3E26120BB07445605 /* HTTPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPClient.swift; path = Sources/YandexLoginSDK/Private/Networking/HTTPClient.swift; sourceTree = "<group>"; };
 		A54A7218B9F170DB7FB10FC9C4249183 /* JWTResponseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWTResponseParser.swift; path = Sources/YandexLoginSDK/Private/Networking/ResponseParser/JWTResponseParser.swift; sourceTree = "<group>"; };
@@ -271,7 +271,7 @@
 		CCBD8FBDAE92C835D01099A09E73C0D6 /* Pods-ydisk_skillbox-ydisk_skillboxUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ydisk_skillbox-ydisk_skillboxUITests-Info.plist"; sourceTree = "<group>"; };
 		CEA2976DB0560C23E0E3C2768462584A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		CFA9C56FFED17C54058CB5A23CFA0E43 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/Core/RequestTaskMap.swift; sourceTree = "<group>"; };
-		D3D9FB4AA71D567C64AC1D575BB4C141 /* Pods-ydisk_skillbox-ydisk_skillboxUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ydisk_skillbox-ydisk_skillboxUITests"; path = Pods_ydisk_skillbox_ydisk_skillboxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D9FB4AA71D567C64AC1D575BB4C141 /* Pods_ydisk_skillbox_ydisk_skillboxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ydisk_skillbox_ydisk_skillboxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E76C7DC53CBAD4DEA8334140A95F61 /* YandexLoginSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YandexLoginSDK-Info.plist"; sourceTree = "<group>"; };
 		D6EB7AFE47F8A7528959042DA22691A2 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Core/Response.swift; sourceTree = "<group>"; };
 		DC48B68829ECEC4B3487DB17307AB1B2 /* TokenResponseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenResponseParser.swift; path = Sources/YandexLoginSDK/Private/Networking/ResponseParser/TokenResponseParser.swift; sourceTree = "<group>"; };
@@ -287,7 +287,7 @@
 		EF02DC2E7ABC0DC303B98ACD14C2475E /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/Core/ParameterEncoding.swift; sourceTree = "<group>"; };
 		F26AD8FF450B774E4366D9477C8EEC32 /* YandexLoginSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YandexLoginSDK.swift; path = Sources/YandexLoginSDK/Public/YandexLoginSDK.swift; sourceTree = "<group>"; };
 		F298CAED47843F41152DD8F43425CC13 /* ResponseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseParser.swift; path = Sources/YandexLoginSDK/Private/Networking/ResponseParser/ResponseParser.swift; sourceTree = "<group>"; };
-		F42C62BAA684D2B211A4213CE8B2B734 /* Pods-ydisk_skillboxTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ydisk_skillboxTests"; path = Pods_ydisk_skillboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42C62BAA684D2B211A4213CE8B2B734 /* Pods_ydisk_skillboxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ydisk_skillboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F608345D85A51856FC6156270B13F32A /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Features/Combine.swift; sourceTree = "<group>"; };
 		F750AF9F7A5553F0689FD63F64A81AC9 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/Core/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
 		F7ED3E3D941C3D0F968AA4C3191044A5 /* SecureStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureStorage.swift; path = Sources/YandexLoginSDK/Private/Storage/SecureStorage.swift; sourceTree = "<group>"; };
@@ -399,7 +399,6 @@
 				5E8990F334588B2957C166ABBF16D3DD /* Resources */,
 				120599BCD6E74578BB027774889BD014 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -515,7 +514,6 @@
 				1FDE588F7A0A8D5C67F6DF1CB60DC61A /* YandexLoginSDKObserver.swift */,
 				74CD91AEBE205E725B2C1432A225AB29 /* Support Files */,
 			);
-			name = YandexLoginSDK;
 			path = YandexLoginSDK;
 			sourceTree = "<group>";
 		};
@@ -594,12 +592,12 @@
 		EF24880112870FFF6551F450EDFC3EEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
-				085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire-Alamofire */,
-				87B2AF488A12B2E1F948F469EF2F1287 /* Pods-ydisk_skillbox */,
-				D3D9FB4AA71D567C64AC1D575BB4C141 /* Pods-ydisk_skillbox-ydisk_skillboxUITests */,
-				F42C62BAA684D2B211A4213CE8B2B734 /* Pods-ydisk_skillboxTests */,
-				51562AF7062DE7C24ADB5D5B9F11B8BA /* YandexLoginSDK */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire.bundle */,
+				87B2AF488A12B2E1F948F469EF2F1287 /* Pods_ydisk_skillbox.framework */,
+				D3D9FB4AA71D567C64AC1D575BB4C141 /* Pods_ydisk_skillbox_ydisk_skillboxUITests.framework */,
+				F42C62BAA684D2B211A4213CE8B2B734 /* Pods_ydisk_skillboxTests.framework */,
+				51562AF7062DE7C24ADB5D5B9F11B8BA /* YandexLoginSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -667,7 +665,7 @@
 			);
 			name = "Pods-ydisk_skillbox";
 			productName = Pods_ydisk_skillbox;
-			productReference = 87B2AF488A12B2E1F948F469EF2F1287 /* Pods-ydisk_skillbox */;
+			productReference = 87B2AF488A12B2E1F948F469EF2F1287 /* Pods_ydisk_skillbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		976126A1CE06DC6E162563800E1BDF14 /* Alamofire-Alamofire */ = {
@@ -684,7 +682,7 @@
 			);
 			name = "Alamofire-Alamofire";
 			productName = Alamofire;
-			productReference = 085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire-Alamofire */;
+			productReference = 085DBCE7DD98588B2ED103B1C1F36026 /* Alamofire.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		9B73FCBAA2CFF13DD6DE901BAE39DCFF /* Pods-ydisk_skillbox-ydisk_skillboxUITests */ = {
@@ -704,7 +702,7 @@
 			);
 			name = "Pods-ydisk_skillbox-ydisk_skillboxUITests";
 			productName = Pods_ydisk_skillbox_ydisk_skillboxUITests;
-			productReference = D3D9FB4AA71D567C64AC1D575BB4C141 /* Pods-ydisk_skillbox-ydisk_skillboxUITests */;
+			productReference = D3D9FB4AA71D567C64AC1D575BB4C141 /* Pods_ydisk_skillbox_ydisk_skillboxUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B8CBD3958D57403F0295E562A15B39C0 /* YandexLoginSDK */ = {
@@ -722,7 +720,7 @@
 			);
 			name = YandexLoginSDK;
 			productName = YandexLoginSDK;
-			productReference = 51562AF7062DE7C24ADB5D5B9F11B8BA /* YandexLoginSDK */;
+			productReference = 51562AF7062DE7C24ADB5D5B9F11B8BA /* YandexLoginSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BA2B1BEE542C9FDBCA1BEF9FF1B5531D /* Pods-ydisk_skillboxTests */ = {
@@ -741,7 +739,7 @@
 			);
 			name = "Pods-ydisk_skillboxTests";
 			productName = Pods_ydisk_skillboxTests;
-			productReference = F42C62BAA684D2B211A4213CE8B2B734 /* Pods-ydisk_skillboxTests */;
+			productReference = F42C62BAA684D2B211A4213CE8B2B734 /* Pods_ydisk_skillboxTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
@@ -760,7 +758,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -781,8 +779,9 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
+			packageReferences = (
+				179C83552D8A74A800AF6039 /* XCRemoteSwiftPackageReference "DotEnv" */,
+			);
 			productRefGroup = EF24880112870FFF6551F450EDFC3EEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -824,7 +823,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CD127F101529C336A07D45CE1106A54 /* Alamofire-Alamofire in Resources */,
+				5CD127F101529C336A07D45CE1106A54 /* Alamofire.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1640,6 +1639,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		179C83552D8A74A800AF6039 /* XCRemoteSwiftPackageReference "DotEnv" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftpackages/DotEnv.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
