@@ -15,13 +15,20 @@ struct CustomCell: View, Equatable {
     var body: some View {
         HStack(spacing: 12) {
             iconView
-
+//                .overlay{
+//                    Rectangle()
+//                        .stroke(Color.red, lineWidth: 1)
+//                }
             VStack(alignment: .leading, spacing: 4) {
                 // Название элемента
                 Text(item.name)
                     .font(.system(size: 16, weight: .semibold))
                     .foregroundColor(.primary)
                     .lineLimit(1)
+//                    .overlay{
+//                        Rectangle()
+//                            .stroke(Color.gray, lineWidth: 1)
+//                    }
 
                 // Дополнительная информация
                 HStack(spacing: 8) {
@@ -36,9 +43,10 @@ struct CustomCell: View, Equatable {
                 }
             }
         }
-//        .padding(.vertical, 8)
-//        .padding(.horizontal, 12)
-
+//        .overlay{
+//            Rectangle()
+//                .stroke(Color.blue, lineWidth: 1)
+//        }
         .contentShape(Rectangle())
     }
 

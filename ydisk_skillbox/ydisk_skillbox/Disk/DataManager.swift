@@ -294,21 +294,6 @@ class DataManager {
     // MARK: - Token and Headers
     func getToken() -> String {
         @AppStorage("token") var token: String = ""
-        #if DEBUG
-        token = ""
-        if token.isEmpty {
-            DispatchQueue.main.async {
-                while true {
-                    print("укажите токен в Disk/DataManager.swift -> getToken()")
-                    sleep(1)
-                }
-            }
-        }
-        #endif
-        if token.isEmpty {
-            print("ТОКЕН ПУСТОЙ")
-            return ""
-        }
         return token
     }
     

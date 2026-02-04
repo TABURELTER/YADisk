@@ -7,7 +7,7 @@
 
 import Foundation
 import Alamofire
-import SwiftUICore
+import SwiftUI
 
 // Вынесем donationsIncomeData наружу, чтобы обновлять ее напрямую
 class YandexDiskService: ObservableObject{

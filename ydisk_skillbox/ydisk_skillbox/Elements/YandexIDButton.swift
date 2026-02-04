@@ -69,6 +69,12 @@ class YandexLoginViewModel: NSObject, ObservableObject, YandexLoginSDKObserver {
             print("Найден сохранённый токен: \(apptoken)")
             return true
         } else {
+            print("Не найден сохранённый токен, выполняется логаут")
+            do {
+                try YandexLoginSDK.shared.logout()
+            }catch{
+                print("logout failed")
+            }
             print("Токен не найден")
             return false
         }
@@ -107,15 +113,17 @@ class YandexLoginViewModel: NSObject, ObservableObject, YandexLoginSDKObserver {
             print("Не удалось получить rootViewController")
             return
         }
-
+            print("start auth")
         do {
             isLoading = true
             try YandexLoginSDK.shared.authorize(
                 with: rootViewController,
                 customValues: nil,
-                authorizationStrategy: strategy
+                authorizationStrategy: .webOnly
             )
+            print("auth finished")
         } catch {
+            print("auth failed")
             isLoading = false
             errorMessage = "startAuthorization Ошибка запуска авторизации: \(error)"
             print("startAuthorization Ошибка запуска авторизации: \(error)")
