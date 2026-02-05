@@ -97,9 +97,8 @@ struct LaunchScreenView: View {
 
     @ViewBuilder
     private var nameLogo: some View {
-        Image("Name")
-            .resizable()
-            .scaledToFit()
+        Text("YADisk") // 50 px
+            .font(Font.largeTitle.bold())
             .frame(width: 200, height: 50)
             .colorMultiply(colorScheme == .dark ? .white : .black)  // Инверсия цвета
     }

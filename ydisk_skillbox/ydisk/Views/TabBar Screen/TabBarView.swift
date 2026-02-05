@@ -1,6 +1,6 @@
 //
 //  TabBarView.swift
-//  ydisk_skillbox
+//  yadisk
 //
 //  Created by Дмитрий Богданов on 18.02.2025.
 //

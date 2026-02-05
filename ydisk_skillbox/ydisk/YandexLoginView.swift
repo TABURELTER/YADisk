@@ -1,6 +1,6 @@
 //
 //  YandexLoginView.swift
-//  idk ydisk_skillbox
+//  idk yadisk
 //
 //  Created by Дмитрий Богданов on 28.02.2025.
 //

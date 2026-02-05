@@ -17,7 +17,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1791CD842D63BF2600186CA6"
                BuildableName = "Skillbox Drive.app"
-               BlueprintName = "ydisk_skillbox"
+               BlueprintName = "ydisk"
                ReferencedContainer = "container:idk ydisk_skillbox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -55,7 +55,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -70,7 +70,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1791CD842D63BF2600186CA6"
             BuildableName = "Skillbox Drive.app"
-            BlueprintName = "ydisk_skillbox"
+            BlueprintName = "ydisk"
             ReferencedContainer = "container:idk ydisk_skillbox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,7 +94,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1791CD842D63BF2600186CA6"
             BuildableName = "Skillbox Drive.app"
-            BlueprintName = "ydisk_skillbox"
+            BlueprintName = "ydisk"
             ReferencedContainer = "container:idk ydisk_skillbox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

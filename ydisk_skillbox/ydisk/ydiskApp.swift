@@ -9,7 +9,7 @@ import SwiftUI
 import DotEnv
 
 @main
-struct ydisk_skillboxApp: App {
+struct ydiskApp: App {
 //    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     @StateObject var launchScreenState = LaunchScreenStateManager()

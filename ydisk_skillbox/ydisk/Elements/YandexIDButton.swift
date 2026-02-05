@@ -1,6 +1,6 @@
 //
 //  YandexIDButton.swift
-//  idk ydisk_skillbox
+//  idk yadisk
 //
 //  Created by Дмитрий Богданов on 01.03.2025.
 //

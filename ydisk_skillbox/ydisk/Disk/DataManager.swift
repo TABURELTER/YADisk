@@ -1,6 +1,6 @@
 //
-//  RestAPI.swift
-//  ydisk_skillbox
+//  DataManager.swift
+//  yadisk
 //
 //  Created by Дмитрий Богданов on 10.03.2025.
 //
@@ -16,7 +16,10 @@ class DataManager {
     private let baseURL = "https://cloud-api.yandex.net/v1/disk/resources"
     private let cacheFileName = "DiskResponseCache.json"
     
-    
+    private static let dateFormatter: ISO8601DateFormatter = {
+        let formatter = ISO8601DateFormatter()
+        return formatter
+    }()
 
     
     // MARK: - Rename file
@@ -315,7 +318,7 @@ class DataManager {
                 isFolder: item.type == "dir",
                 name: item.name,
                 path: item.path,
-                dateCreate: ISO8601DateFormatter().date(from: item.created) ?? Date(),
+                dateCreate: DataManager.dateFormatter.date(from: item.created) ?? Date(),
                 size: item.size != nil ? ByteCountFormatter.string(fromByteCount: Int64(item.size!), countStyle: .file) : "",
                 sizes: item.sizes,
                 file: item.file,
@@ -331,7 +334,7 @@ class DataManager {
             guard let name = item.name,
                   let path = item.path,
                   let created = item.created,
-                  let dateCreated = ISO8601DateFormatter().date(from: created) else {
+                  let dateCreated = DataManager.dateFormatter.date(from: created) else {
                 print("[WARNING] Пропущен элемент из-за отсутствия обязательных данных: \(item)")
                 return nil
             }

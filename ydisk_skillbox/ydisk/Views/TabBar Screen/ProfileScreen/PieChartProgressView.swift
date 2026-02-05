@@ -1,6 +1,6 @@
 //
 //  PieChartProgressView.swift
-//  idk ydisk_skillbox
+//  idk yadisk
 //
 //  Created by Дмитрий Богданов on 19.02.2025.
 //

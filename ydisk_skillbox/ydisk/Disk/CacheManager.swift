@@ -1,6 +1,6 @@
 //
 //  CacheManager.swift
-//  idk ydisk_skillbox
+//  idk yadisk
 //
 //  Created by Дмитрий Богданов on 20.03.2025.
 //

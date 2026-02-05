@@ -1,6 +1,6 @@
 //
 //  LastUploaded.swift
-//  idk ydisk_skillbox
+//  idk yadisk
 //
 //  Created by Дмитрий Богданов on 23.03.2025.
 //
