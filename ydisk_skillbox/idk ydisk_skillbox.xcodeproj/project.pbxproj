@@ -45,19 +45,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1791CD872D63BF2600186CA6 /* ydisk_skillbox */ = {
+		1791CD872D63BF2600186CA6 /* ydisk */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ydisk_skillbox;
-			sourceTree = "<group>";
-		};
-		1791CD982D63BF2800186CA6 /* ydisk_skillboxTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ydisk_skillboxTests;
-			sourceTree = "<group>";
-		};
-		1791CDA22D63BF2800186CA6 /* ydisk_skillboxUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ydisk_skillboxUITests;
+			path = ydisk;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -80,9 +70,7 @@
 		1791CD7C2D63BF2600186CA6 = {
 			isa = PBXGroup;
 			children = (
-				1791CD872D63BF2600186CA6 /* ydisk_skillbox */,
-				1791CD982D63BF2800186CA6 /* ydisk_skillboxTests */,
-				1791CDA22D63BF2800186CA6 /* ydisk_skillboxUITests */,
+				1791CD872D63BF2600186CA6 /* ydisk */,
 				1791CD862D63BF2600186CA6 /* Products */,
 				A186D5E4B90D4912A737C446 /* Pods */,
 				2CA55F3D2F0C5A0DC05892FD /* Frameworks */,
@@ -125,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1791CD842D63BF2600186CA6 /* ydisk_skillbox */ = {
+		1791CD842D63BF2600186CA6 /* ydisk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1791CDA92D63BF2800186CA6 /* Build configuration list for PBXNativeTarget "ydisk_skillbox" */;
+			buildConfigurationList = 1791CDA92D63BF2800186CA6 /* Build configuration list for PBXNativeTarget "ydisk" */;
 			buildPhases = (
 				16EBE5BDBAB3512F95EE4A80 /* [CP] Check Pods Manifest.lock */,
 				1791CD812D63BF2600186CA6 /* Sources */,
@@ -141,9 +129,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1791CD872D63BF2600186CA6 /* ydisk_skillbox */,
+				1791CD872D63BF2600186CA6 /* ydisk */,
 			);
-			name = ydisk_skillbox;
+			name = ydisk;
 			productName = ydisk_skillbox;
 			productReference = 1791CD852D63BF2600186CA6 /* Skillbox Drive.app */;
 			productType = "com.apple.product-type.application";
@@ -163,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1791CD802D63BF2600186CA6 /* Build configuration list for PBXProject "idk ydisk_skillbox" */;
+			buildConfigurationList = 1791CD802D63BF2600186CA6 /* Build configuration list for PBXProject "idk ydisk" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -182,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1791CD842D63BF2600186CA6 /* ydisk_skillbox */,
+				1791CD842D63BF2600186CA6 /* ydisk */,
 			);
 		};
 /* End PBXProject section */
@@ -390,6 +378,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YADisk;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -403,6 +392,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "tab.ydisk-skillbox";
 				PRODUCT_NAME = "Skillbox Drive";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -423,6 +415,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YADisk;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -436,6 +429,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "tab.ydisk-skillbox";
 				PRODUCT_NAME = "Skillbox Drive";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,7 +441,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1791CD802D63BF2600186CA6 /* Build configuration list for PBXProject "idk ydisk_skillbox" */ = {
+		1791CD802D63BF2600186CA6 /* Build configuration list for PBXProject "idk ydisk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1791CDA72D63BF2800186CA6 /* Debug */,
@@ -454,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1791CDA92D63BF2800186CA6 /* Build configuration list for PBXNativeTarget "ydisk_skillbox" */ = {
+		1791CDA92D63BF2800186CA6 /* Build configuration list for PBXNativeTarget "ydisk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1791CDAA2D63BF2800186CA6 /* Debug */,
