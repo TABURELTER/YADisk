@@ -21,6 +21,20 @@
                ReferencedContainer = "container:idk ydisk_skillbox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1791CD842D63BF2600186CA6"
+               BuildableName = "Skillbox Drive.app"
+               BlueprintName = "ydisk"
+               ReferencedContainer = "container:ydisk_cloud.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -71,9 +85,18 @@
             BlueprintIdentifier = "1791CD842D63BF2600186CA6"
             BuildableName = "Skillbox Drive.app"
             BlueprintName = "ydisk"
-            ReferencedContainer = "container:idk ydisk_skillbox.xcodeproj">
+            ReferencedContainer = "container:ydisk_cloud.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1791CD842D63BF2600186CA6"
+            BuildableName = "Skillbox Drive.app"
+            BlueprintName = "ydisk"
+            ReferencedContainer = "container:idk ydisk_skillbox.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "DYLD_PRINT_STATISTICS"
@@ -98,6 +121,15 @@
             ReferencedContainer = "container:idk ydisk_skillbox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1791CD842D63BF2600186CA6"
+            BuildableName = "Skillbox Drive.app"
+            BlueprintName = "ydisk"
+            ReferencedContainer = "container:idk ydisk_skillbox.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

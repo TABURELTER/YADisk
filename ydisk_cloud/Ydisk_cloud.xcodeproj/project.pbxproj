@@ -151,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1791CD802D63BF2600186CA6 /* Build configuration list for PBXProject "ydisk_cloud" */;
+			buildConfigurationList = 1791CD802D63BF2600186CA6 /* Build configuration list for PBXProject "Ydisk_cloud" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -441,7 +441,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1791CD802D63BF2600186CA6 /* Build configuration list for PBXProject "ydisk_cloud" */ = {
+		1791CD802D63BF2600186CA6 /* Build configuration list for PBXProject "Ydisk_cloud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1791CDA72D63BF2800186CA6 /* Debug */,
